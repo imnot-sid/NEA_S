@@ -39,7 +39,7 @@ def run_model(image_source, accuracy, username):
         return full_response
 
     # Generate informative text using GenAI
-    client = genai.Client(api_key='AIzaSyAGecHsgmbKh6SeA-c9fqeVhiQWAtsbXwo')
+    client = genai.Client(api_key='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
     # Generate information about the detected disease
     response_info = client.models.generate_content_stream(
